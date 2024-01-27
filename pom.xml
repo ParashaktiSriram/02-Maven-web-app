@@ -26,7 +26,4 @@
       <version>5.2.2.RELEASE</version>
     </dependency>    
   </dependencies>
-  <build>
-    <finalName>01-Maven-web-App</finalName>
-  </build>
 </project>
