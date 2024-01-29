@@ -26,4 +26,29 @@
       <version>5.2.2.RELEASE</version>
     </dependency>    
   </dependencies>
+  <build>
+<profiles>
+    <profile>
+        <id>dev</id>
+        <build>
+            <finalName>BSOFT-DEV</finalName>
+        </build>
+    </profile>
+    
+    <profile>
+        <id>sit</id>
+        <build>
+            <finalName>BSOFT-SIT</finalName>
+        </build>
+    </profile>
+	<profile>
+        <id>uat</id>
+        <build>
+            <finalName>BSOFT-UAT</finalName>
+        </build>
+    </profile>
+
+    <!-- Add more profiles for other environments (uat, prod, etc.) as needed -->
+</profiles>
+</build>
 </project>
